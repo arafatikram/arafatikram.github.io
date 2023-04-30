@@ -1,18 +1,9 @@
-/*
-Template Name: Resumex
-Description: HTML5 / CSS3 One Page
-Version: 1.0
-Author: themehippo.com
-*/
 
-/*------------------------------------------------------------------
-# [Color codes]
+.first-letter {
+    font-size: 20px;
+    line-height: 20px;
+  }
 
-# Body  (text): #3a4750
-# Heading Color #444444
-# Theme Color (link color) #82b541
-# Mid grey (sub header) #f4f4f4
-# -------------------------------------------------------------------*/
 
 body {
     font-family : 'Hind', sans-serif;
@@ -71,7 +62,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #FFC107;
+    color              : #03a3b8;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -90,13 +81,16 @@ a:active {
 a:hover,
 a:focus {
     text-decoration : none;
-    color           : #ff9800;
+    color           : #052f6e;
     }
 
 p {
     margin-bottom : 20px;
+    text-align: justify;
+    text-justify: inter-word;
     }
 
+ 
 ul {
     margin     : 0;
     padding    : 0;
@@ -124,13 +118,13 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #FFC107;
+    background-color : #0787ff;
     }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
-    background : #ff9800;
+    background : #0256f1;
     }
 
 /*btn-default*/
