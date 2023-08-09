@@ -7,3 +7,4 @@ Disallow: /fonts/
 Disallow: /img/
 Disallow: /js/
 Disallow: /other/
+Disallow: /awards/
