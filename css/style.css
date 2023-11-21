@@ -222,6 +222,8 @@ button:focus,
  *  main Wrapper
  * -------------------*/
 #main-wrapper {
+    text-align: justify;
+    text-justify: inter-word;
     overflow : hidden;
     }
 
@@ -229,13 +231,13 @@ button:focus,
  * Section Wrapper
  *-------------------*/
 .section-wrapper {
-    padding       : 50px;
+    padding       : 20px;
     border-bottom : 1px solid #eaeaea;
     }
 
 @media (max-width : 480px) {
     .section-wrapper {
-        padding : 30px 20px;
+        padding : 15px 10px;
         }
     }
 
@@ -244,6 +246,8 @@ button:focus,
 *---------------------------*/
 .section-title {
     margin-bottom : 15px;
+    text-align: justify;
+    text-justify: inter-word;
     }
 
 .section-title h2 {
@@ -455,6 +459,7 @@ button:focus,
 
 .content-item {
     margin-bottom : 40px;
+    
     }
 
 .content-item h3 {
