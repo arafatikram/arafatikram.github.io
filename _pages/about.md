@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Propective Graduate   ●  Data Analyst   ●   Electrical Engineering.
+subtitle: Propective Graduate   ⁃  Data Analyst   ⁃   Electrical Engineering.
 
 profile:
   align: right
