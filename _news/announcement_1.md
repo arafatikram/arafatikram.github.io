@@ -7,4 +7,3 @@ related_posts: false
 ---
 
 I am thrilled to share that one of our research papers entitled as "[Techno-Economic Optimization of Grid-Integrated Hybrid Storage System using GA](https://www.researchgate.net/publication/371060266_Techno-Economic_Optimization_of_Grid-Integrated_Hybrid_Storage_System_using_GA)", has been awarded as [BEST PAPER of IEEE-IHCSP 2023](https://arafatikram.github.io/assets/pdf/awards/Best_Paper_IHCSP_23.pdf).
-

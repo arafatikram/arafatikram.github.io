@@ -29,7 +29,7 @@
       "startDate": "2024-01-01",
       "endDate": "2024-11-30",
       "summary": "Primary task was to analyse, visualize, and error checking of market research data including collected brand public awareness, brand perception, brand health tracking data for world leading research firm such as IPSOS & LRW material..",
-      "highlights": ["Data Manupulatiom", "Statistical Operation", "Data Cleaning", "Error Checking",  "Data Visualization"]
+      "highlights": ["Data Manupulatiom", "Statistical Operation", "Data Cleaning", "Error Checking", "Data Visualization"]
     },
     {
       "name": "International Islamic University Chittagong",
@@ -38,7 +38,11 @@
       "startDate": "2023-01-05",
       "endDate": "2023-11-19",
       "summary": "GTA for the following Tutorial sessions, Laboratory demonstrations, and Viva session of undergraduate program",
-      "highlights": ["Assessing Renewable generation using Weibull distribution & beta function.", "MPPT based PV Design using MATLAB simulation environment.", "Simulation on HOMER for Distributed generation and assessing CAPEX and LCOE for projected model."]
+      "highlights": [
+        "Assessing Renewable generation using Weibull distribution & beta function.",
+        "MPPT based PV Design using MATLAB simulation environment.",
+        "Simulation on HOMER for Distributed generation and assessing CAPEX and LCOE for projected model."
+      ]
     },
     {
       "name": "General Electric Manufacturing Company Limited",
@@ -47,7 +51,7 @@
       "startDate": "2023-01-05",
       "endDate": "2023-02-07",
       "summary": "Acquired knowledge about Distributed Transformer Manufacturing, Planning, Designing, and Maintenance.",
-      "highlights": ["Coil binding/turn ratio", "Megger testing","Measureing core loss and copper loss"]
+      "highlights": ["Coil binding/turn ratio", "Megger testing", "Measureing core loss and copper loss"]
     }
   ],
   "volunteer": [
@@ -60,7 +64,11 @@
       "startDate": "2021-04-12",
       "endDate": "2021-12-18",
       "summary": "Utilized communication skill, analytical ability to lead the team to achieve the best group of all while advancing the trainee session.",
-      "highlights": ["Arranging workshop on Line follower robots, application of various sensor.", "Arduino and Python programming workshop.", "Webinar for undergraduate students about IoT based project, Arduino, Raspberry pi etc."]
+      "highlights": [
+        "Arranging workshop on Line follower robots, application of various sensor.",
+        "Arduino and Python programming workshop.",
+        "Webinar for undergraduate students about IoT based project, Arduino, Raspberry pi etc."
+      ]
     }
   ],
   "education": [
