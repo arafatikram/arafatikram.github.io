@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Excited to share our findings at #STI2023
+title: Excited to share our findings at STI2023
 date: 2016-01-15 07:59:00-0400
 inline: false
 related_posts: false

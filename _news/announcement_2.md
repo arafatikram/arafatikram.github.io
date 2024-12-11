@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Excited to share insights on Oral Presentaion on #iCACCESS2024
+title: Excited to share insights on Oral Presentaion on iCACCESS2024
 date: 2024-03-08 16:11:00-0400
 inline: false
 related_posts: false
