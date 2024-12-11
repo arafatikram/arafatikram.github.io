@@ -4,6 +4,7 @@ title: New publication indexed on the Springer journal!!!📰✨
 date: 2024-02-15 15:59:00-0400
 inline: true
 related_posts: false
+tags: Optimization RenewableEnergy Microgrid Hydrogen EnergyManagementSystem CarbonTaxation
 ---
 
 Thrilled to announce our new publication in the Arabian Journal for Science and Engineering (AJSE) — a Reputable Journal! 📰✨

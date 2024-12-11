@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Excited to share our findings at STI2023
-date: 2016-01-15 07:59:00-0400
+date: 2023-12-12 07:59:00-0400
 inline: false
 related_posts: false
+tags: Optimization RenewableEnergy
 ---
 
 Excited to share our findings at #STI2023! 📊🌍  
-A big thank you to the organizers of the 2023 International Conference on Sustainable Technologies for Industry 5.0 (STI). The ambiance was perfect, and the keynote speaker's insights were truly inspiring. This conference has been a fantastic platform for advancing sustainable technologies. Driving sustainable tech forward! ⚡🌱 #Industry5 #RenewableEnergy
+A big thank you to the organizers of the 2023 International Conference on Sustainable Technologies for Industry 5.0 (STI). The ambiance was perfect, and the keynote speaker's insights were truly inspiring. This conference has been a fantastic platform for advancing sustainable technologies. Driving sustainable tech forward! ⚡🌱
 
 ---
 

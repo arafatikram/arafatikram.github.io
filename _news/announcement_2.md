@@ -4,9 +4,10 @@ title: Excited to share insights on Oral Presentaion on iCACCESS2024
 date: 2024-03-08 16:11:00-0400
 inline: false
 related_posts: false
+tags: MachineLearning SmartSystems
 ---
 
-Just presented at #iCACCESS2024! 🎉 Excited to share insights on detecting electrical power quality disturbances in transmission lines using a machine learning-enabled classifier. Powering smarter, more reliable grids! ⚡🔌 #MachineLearning #ElectricalEngineering #SmartSystems
+Just presented at #iCACCESS2024! 🎉 Excited to share insights on detecting electrical power quality disturbances in transmission lines using a machine learning-enabled classifier. Powering smarter, more reliable grids! ⚡🔌
 
 ---
 
