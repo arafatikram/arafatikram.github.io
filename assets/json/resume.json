@@ -108,7 +108,7 @@
       "summary": "The study explores optimizing energy consumption in smart homes through load scheduling. By employing two meta-heuristic optimization techniques, we aimed to decrease electricity costs and the peak-to-average ratio while maintaining user comfort. The study focused on a grid-connected setup with rooftop solar panels and battery storage. Results showed a 4.5% reduction in daily electricity costs, demonstrating the effectiveness of our proposed strategies."
     }
   ],
-  "research experience": [
+  "research_experience": [
     {
       "supervisor": "Dr. Md. Shafiullah ",
       "institution": "King Fahd University of Petroleum & Minerals",
