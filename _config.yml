@@ -48,7 +48,7 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: false
-search_enabled: true
+search_enabled: false
 socials_in_search: false
 bib_search: true
 
@@ -205,7 +205,7 @@ announcements:
   limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
