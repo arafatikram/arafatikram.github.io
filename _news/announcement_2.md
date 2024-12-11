@@ -16,4 +16,4 @@ Our study enhances the detection and classification of power quality disturbance
 ---
 
 "Electrical Power Quality Disturbances Detection in Transmission Lines Using Machine Learning-Enabled Classifier"
-presented at iCACCESS is now available on IEEE - [ResearchGate](https://www.researchgate.net/publication/380012433_Electrical_Power_Quality_Disturbances_Detection_in_Transmission_Lines_Using_Machine_Learning-Enabled_Classifier) - [Download PDF](https://arafatikram.github.io/assets/pdf/ikram2024electrical.pdf)
+presented at iCACCESS is now available on IEEE - [Download PDF](https://arafatikram.github.io/assets/pdf/ikram2024electrical.pdf)
