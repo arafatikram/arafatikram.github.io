@@ -1,4 +1,8 @@
 User-agent: *
-Disallow:
+Disallow: 
+Disallow: /blog/
+Disallow: /repositories/
+Disallow: /teaching/
+Disallow: /projects/
 
 Sitemap: https://arafatikram.github.io/sitemap.xml
