@@ -80,7 +80,7 @@
       "studyType": "Bachelor of Science",
       "startDate": "2017-10-10",
       "endDate": "2022-08-18",
-      "courses (major)": ["Renewable Energy", "Power Plant Engineering"]
+      "courses": ["Renewable Energy", "Power Plant Engineering"]
     }
   ],
   "awards": [
@@ -90,6 +90,13 @@
       "awarder": "IEEE-IHCSP 2023",
       "url": "https://ieeexplore.ieee.org/document/10127187/",
       "summary": "Findings highlight significant improvements in efficiency and cost-effectiveness, paving the way for more sustainable and economical energy solutions."
+    },
+    {
+      "title": "Top-10 Best Student Paper Award",
+      "date": "2023-03-05",
+      "awarder": "IEEE-IHCSP 2023",
+      "url": "https://ieeexplore.ieee.org/document/10534560/",
+      "summary": "Study describe the novel apporach of using ensemble-learning method to forecast the smart grid stability using historical datasets."
     }
   ],
   "publications": [
@@ -135,6 +142,20 @@
       "issuer": "Vanderbilt University (via coursera)",
       "url": "https://www.coursera.org/learn/matlab",
       "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Python Machine Learning and Python Deep Learning with Data Analysis, Artificial Intelligence, OOP, and Python Projects",
+      "date": "2023-01-01",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/course/python-programming-machine-learning-deep-learning-python/",
+      "icon": "fa-solid fa-clipboard-laptop"
+    },
+    {
+      "name": "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
+      "date": "2024-02-01",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+      "icon": "fa-solid fa-clipboard-thumbtack"
     }
   ],
   "skills": [
@@ -186,7 +207,7 @@
     {
       "name": "IoT based Smart traffic control (#Halted)",
       "summary": "IoT-based smart traffic control uses interconnected devices to optimize traffic flow, reduce congestion, and enhance road safety through real-time monitoring and adaptive signaling. ",
-      "highlights": ["Internet of Things", "Raspberry pi", "Python Automation"],
+      "highlights": ["Internet of Things", "Raspberry Pi", "Python Automation"],
       "startDate": "2020-05-01",
       "endDate": "2020-10-01"
     },
