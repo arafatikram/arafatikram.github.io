@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Top-10 Best Student Paper Award!!! 🏭⚡㊗️✨
+title: Top-10 Best Student Paper Award!!! ⚡
 date: 2024-02-15 15:59:00-0400
 inline: false
 related_posts: false
 tags: BestPaperAwards MachineLearning SmartGrid
 ---
 
-Thrilled to share that our paper, "Performance Analysis of Machine Learning-Based Traditional and Ensemble Techniques for Smart Grid Stability Prediction," has been awarded the [Top 10 Best Paper Award](https://arafatikram.github.io/assets/pdf/awards/Best_Paper_ICEEICT_2024.pdf) at the 6th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT 2024)! 🏭⚡㊗️✨
+Thrilled to share that our paper, "Performance Analysis of Machine Learning-Based Traditional and Ensemble Techniques for Smart Grid Stability Prediction," has been awarded the [Top 10 Best Paper Award](https://arafatikram.github.io/assets/pdf/awards/Best_Paper_ICEEICT_2024.pdf) at the 6th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT 2024)! 🏭⚡
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/ICEEICT-2.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
