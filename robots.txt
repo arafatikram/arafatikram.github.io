@@ -4,5 +4,7 @@ Disallow: /blog/
 Disallow: /repositories/
 Disallow: /teaching/
 Disallow: /projects/
+Disallow: /bibtext/
+Disallow: /people/
 
 Sitemap: https://arafatikram.github.io/sitemap.xml
