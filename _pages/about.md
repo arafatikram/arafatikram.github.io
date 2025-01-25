@@ -21,7 +21,7 @@ social: false # includes social icons at the bottom of the page
   </p>
 ---
 
-research Focus:
+Research Focus:
 
 - Microgrid and smart distribution control, distributed energy resources
 - Smart load demand scheduling and operation under uncertainty
