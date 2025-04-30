@@ -7,3 +7,11 @@
 
 "Vision":
   color: "#009f36"
+
+"IET Power Electronics":
+  url: https://ietresearch.onlinelibrary.wiley.com/journal/1755454
+  color: "#BD12EF"
+
+"Arabian Journal for Science and Engineering":
+  url: https://link.springer.com/journal/13369
+  color: "#C8354C"
