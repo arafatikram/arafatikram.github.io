@@ -28,18 +28,36 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-am-thrilled-to-share-that-one-of-our-research-papers-entitled-as-techno-economic-optimization-of-grid-integrated-hybrid-storage-system-using-ga-has-been-awarded-as-best-paper-of-ieee-ihcsp-2023",
+          title: 'I am thrilled to share that one of our research papers entitled as...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-excited-to-share-our-findings-at-sti2023",
+          title: 'Excited to share our findings at STI2023',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-excited-to-present-at-the-2023-ieee-9th-wiecon-ece",
+          title: 'Excited to present at the 2023 IEEE 9th WIECON-ECE',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "news-during-my-time-as-a-graduate-teaching-assistant-i-had-the-chance-to-collaborate-with-a-professor-on-optimizing-energy-consumption-in-smart-homes-we-focused-on-load-scheduling-approaches-to-enhance-efficiency-and-reduce-costs-our-work-guided-by-dr-asim-ullah-fundded-by-fse-dept-of-eee-iiuc-was-published-in-iet-power-electronics-2024-this-experience-was-incredibly-enriching-and-deepened-my-understanding-of-smart-home-technologies-download-pdf",
+          title: 'During my time as a graduate teaching assistant, I had the chance to...',
+          description: "",
+          section: "News",},{id: "news-thrilled-to-announce-our-new-publication-in-the-arabian-journal-for-science-and-engineering-ajse-a-reputable-journal-our-article-techno-economic-assessment-and-environmental-impact-analysis-of-hybrid-storage-system-integrated-microgrid-stems-from-my-bachelor-thesis-we-explored-the-impact-of-integrating-hydrogen-energy-with-hybrid-distributed-generation-optimizing-costs-and-reducing-greenhouse-emissions-using-the-carbon-taxation-law-in-two-cities-download-pdf",
+          title: 'Thrilled to announce our new publication in the Arabian Journal for Science and...',
+          description: "",
+          section: "News",},{id: "news-excited-to-share-insights-on-oral-presentaion-on-icaccess2024",
+          title: 'Excited to share insights on Oral Presentaion on iCACCESS2024',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-top-10-best-student-paper-award",
+          title: 'Top-10 Best Student Paper Award!!! ⚡',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_7/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
