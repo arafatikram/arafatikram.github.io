@@ -29,7 +29,7 @@ orcid_id: 0000-0001-8088-8625 # your ORCID ID
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 research_gate_profile: arafat-ibne-ikram # your profile on ResearchGate
-rss_icon: false # set to true to show the RSS icon
+# rss_icon: false # set to true to show the RSS icon
 scholar_userid: gml3L4MAAAAJ # your Google Scholar ID
 scopus_id: 58196590200 # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
