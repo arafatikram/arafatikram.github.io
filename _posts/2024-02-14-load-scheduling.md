@@ -1,22 +1,23 @@
 ---
 layout: distill
-title: a distill-style blog post
-description: an example of a distill-style blog post and main elements
-tags: distill formatting
-giscus_comments: true
-date: 2021-05-22
+title: Optimizing Smart Home Energy Consumption Strategies
+description: Optimizing Energy Consumption in Smart Homes: A Breakthrough in Load Scheduling
+
+tags: SmartHome,  Optimization, LoadScheduling
+giscus_comments: false
+date: 2024-02-14
 featured: true
 mermaid:
   enabled: true
-  zoomable: true
-code_diff: true
-map: true
+  zoomable: false
+code_diff: false
+map: false
 chart:
-  chartjs: true
-  echarts: true
-  vega_lite: true
-tikzjax: true
-typograms: true
+  chartjs: false
+  echarts: false
+  vega_lite: false
+tikzjax: false
+typograms: false
 
 authors:
   - name: Arafat Ibne Ikram
@@ -32,7 +33,7 @@ authors:
 #     affiliations:
 #       name: IAS, Princeton
 
-# bibliography: 2018-12-22-distill.bib
+ 
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -101,6 +102,7 @@ Traditional energy grids rely heavily on fossil fuels, contributing to carbon em
 ## Proposed Solution
 
 The researchers developed a smart home model equipped with:
+
 - Rooftop solar panels for renewable energy generation.
 - Battery storage to store excess solar energy.
 - Shiftable and non-shiftable loads to categorize household appliances based on their flexibility in usage time.
@@ -114,22 +116,22 @@ The researchers developed a smart home model equipped with:
     System Diagram.
 </div>
 
- 
-
-
 ---
 
 Key Components:
 
 ### Solar Panel Modeling
+
 - The study used mathematical models to estimate solar energy generation based on sunlight availability.
 - Equations accounted for solar radiation, temperature, and panel efficiency to predict hourly energy output.
 
-
 ### Battery Storage System
+
 - Excess solar energy was stored in batteries for use during non-generating hours (e.g., nighttime).
 - The state of charge (SOC) of the battery was monitored to ensure optimal energy usage.
+
 ### Load Classification
+
 - Shiftable Loads: Appliances like washing machines, water heaters, and microwaves, whose usage times can be adjusted.
 - Non-Shiftable Loads: Essential appliances like refrigerators and lights that must operate continuously.
 
@@ -140,6 +142,7 @@ Key Components:
 The study employed two meta-heuristic algorithms to schedule shiftable loads efficiently:
 
 ### Particle Swarm Optimization (PSO)
+
 - Inspired by the social behavior of birds, PSO iteratively adjusts the time of use (TOU) for appliances to minimize costs.
 - It quickly converges to optimal solutions by balancing individual and collective best positions.
 
@@ -152,8 +155,8 @@ The study employed two meta-heuristic algorithms to schedule shiftable loads eff
     System Diagram.
 </div>
 
-
 ### Real-Coded Genetic Algorithm (RCGA)
+
 - A variation of genetic algorithms using real-valued vectors to represent appliance schedules.
 - It uses crossover and mutation to explore optimal TOU configurations, ensuring diversity in solutions.
 
@@ -166,12 +169,12 @@ The study employed two meta-heuristic algorithms to schedule shiftable loads eff
     System Diagram.
 </div>
 
-
 ---
 
 ## Results and Outcomes
 
 The optimization strategies yielded impressive results:
+
 - Reduced Electricity Costs: Daily costs dropped from 507.12 BDT (before optimization) to 484.33 BDT, a 4.5% reduction.
 - Lower Peak Demand: Load curves showed a more balanced energy distribution, avoiding spikes during peak hours.
 - User Comfort Maintained: Appliances operated at optimal times without disrupting daily routines.
@@ -184,11 +187,12 @@ Key Findings:
 ---
 
 ## Future Directions
+
 The study opens doors for further advancements:
+
 - Hybrid Energy Systems: Integrating wind turbines or diesel generators alongside solar panels.
 - Real-Time Pricing Models: Adapting to dynamic electricity tariffs for even greater savings.
 - vAdvanced Algorithms: Exploring other optimization techniques like deep reinforcement learning for smarter scheduling.
-
 
 ---
 
