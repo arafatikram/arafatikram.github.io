@@ -1,30 +1,30 @@
 ---
 layout: distill
 title: Optimizing Smart Home Energy Consumption Strategies
-description: Optimizing Energy Consumption in Smart Homes: A Breakthrough in Load Scheduling
+description: Optimizing Energy Consumption in Smart Homes A Breakthrough in Load Scheduling
 
 tags: SmartHome,  Optimization, LoadScheduling
-giscus_comments: false
+# giscus_comments: false
 date: 2024-02-14
 featured: true
 mermaid:
   enabled: true
-  zoomable: false
-code_diff: false
-map: false
-chart:
-  chartjs: false
-  echarts: false
-  vega_lite: false
-tikzjax: false
-typograms: false
+#   zoomable: false
+# code_diff: false
+# map: false
+# chart:
+#   chartjs: false
+#   echarts: false
+#   vega_lite: false
+# tikzjax: false
+# typograms: false
 
 authors:
   - name: Arafat Ibne Ikram
     url: "https://scholar.google.com/citations?user=gml3L4MAAAAJ"
     affiliations:
-      name: IAS, Princeton
-  - name: Dr. Md. Aasim Ullah  
+      name: RA, IIUC
+  - name: Dr. Md. Aasim Ullah
     url: "https://www.iiuc.ac.bd/profile/view/2412"
     affiliations:
       name: Assistant Professor, IIUC
@@ -32,8 +32,6 @@ authors:
 #     url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
 #     affiliations:
 #       name: IAS, Princeton
-
- 
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -46,13 +44,13 @@ toc:
   - name: Challenges
   - name: Proposed Solution
     subsections:
-        - name: Solar Panel Modeling
-        - name: Battery Storage System
-        - name: Load Classification
+      - name: Solar Panel Modeling
+      - name: Battery Storage System
+      - name: Load Classification
   - name: Optimization Techniques
     subsections:
-        - name: Particle Swarm Optimization
-        - name: Real-Coded Genetic Algorithm 
+      - name: Particle Swarm Optimization
+      - name: Real-Coded Genetic Algorithm
   - name: Final Outcomes
   - name: Future Directions
   - name: Closure
