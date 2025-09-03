@@ -1,0 +1,391 @@
+% https://www.overleaf.com/latex/templates/smu-pg-resume-template/ftbsqdddgmgf
+
+%% Compile  with  XeLatex
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[left=.4in, right=.4in, top=.4in, bottom=.4in]{geometry}
+\usepackage{fontspec}						% Arial, Times, CormorantGaramond, SourceSerifPro, LiberationSerif, Courier New, FiraSans
+%\setmainfont{Arial}
+%\setmainfont{Times New Roman}
+\setmainfont{Liberation Serif}
+\newfontfamily\titleHeading{Fira Sans} 		%  macros for title small caps
+
+\usepackage{parskip} 						% Keep table format (in this care year) within the margine                                                                                   
+\usepackage{amsmath} 		% for text                                                         
+\usepackage{enumitem} 		% for lists within experience section
+\usepackage{supertabular} 	% to prevent spillover of tabular into next pages
+\usepackage{tabularx} 		% tabularx environment
+\newlength{\fullcollw}\setlength{\fullcollw}{0.42\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+% Sections + spacing + underline
+\titleformat{\section}{\titleHeading\scshape\Large\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+  
+\usepackage[colorlinks=false, linkcolor=black, hidelinks]{hyperref}  %Setup hyperref package, and colours for links
+\usepackage{fontawesome5}			% for social icons
+\usepackage[normalem]{ulem}			% For underline
+\usepackage[none]{hyphenat}			% Preventing Hyphenation
+\usepackage[square,sort,comma,numbers]{natbib}		% for publications
+\usepackage{bibentry}								% for publications
+
+% left algn for title right algn for date
+\newcolumntype{L}{>{\raggedright\arraybackslash}X} % Left-aligned X
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}  % Right-aligned X
+\newcolumntype{C}{>{\centering\arraybackslash}X}  % centered version of 'X' col. type
+
+
+
+
+\begin{document} \pagestyle{empty}  % non-numbered pages
+
+
+% Name, Email, Phone and link
+%\begin{tabularx}{\linewidth}{@{}L @{}R}
+%  \titleHeading\Huge\scshape Arafat Ibne Ikram & \href{mailto:arafatibne.ikram@gmail.com}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\text{arafatibne.ikram@gmail.com}}} \\ 
+%  {\text{B.Sc. in Electrical and Electronic Engineering}} & \href{https://arafatikram.github.io} {\raisebox{0.0\height}{\footnotesize \faLink} {\text{arafatikram.github.io}}}
+%\end{tabularx}	\vspace{2pt}
+
+ % Name, Email, Phone and link
+ \begin{tabularx}{\linewidth}{@{}L @{}R}
+ 	\titleHeading\Huge\scshape Arafat Ibne Ikram & \href{mailto:arafatibne.ikram@gmail.com}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {arafatibne.ikram@gmail.com}} \\
+ 	
+ 	{B.Sc. in Electrical and Electronic Engineering} & \href{www.linkedin.com/in/arafat-ibne-ikram/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {linkedin.com/in/arafat-ibne-ikram}}\\
+                                                 
+ 	{\text{International Islamic University Chittagong}} & \href{https://scholar.google.com/citations?user=gml3L4MAAAAJ} {\raisebox{0.0\height}{\footnotesize \faGraduationCap}\ {Google Scholar}} \\
+ 	
+ 	{Chittagong 4318, Bangladesh} & \href{https://arafatikram.github.io} {\raisebox{0.0\height}{\footnotesize \faLink} {\text{arafatikram.github.io}}}\\
+ 	% 	{--TExT Here--} & \href{https://github.com/arafatikram} {\raisebox{0.0\height}{\footnotesize \faGithub}\ {github.com/arafatikram}}\\  %\faMapMarker*}
+ 	\\
+ \end{tabularx}\vspace{2pt}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+\section{Research Interests} \vspace{2pt}
+My research interests lie at the intersection of sustainability and renewable energy, focusing on ensemble learning and metaheuristic approaches to optimize configurations and minimize carbon footprints using green energy. 
+\vspace{2pt}
+%EDUCATION
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}L @{}R}
+\textbf{Bachelor of Science in Electrical and Electronics Engineering (EEE)} \hfill \textbf{October 2017 -- August 2022}\\[2pt]
+\textit{International Islamic University Chittagong, Kumira, Bangladesh}\hfill \textsc{CGPA: 3.37/4.00}\\[2pt]
+\textbf{Thesis:} Techno-Economic Assessment of PSO Optimized Microgrid with Hydrogen Storage System.  \href{https://doi.org/10.13140/RG.2.2.11606.42565}{\faFilePdf[regular]}\\[4pt]
+\end{tabularx}
+
+
+% Used combination with bibentry package for publication section
+%\section{Publications}
+%	\bibliographystyle{ieeetr} 
+%	\nobibliography{ref.bib} 
+%	\vspace{2pt}
+%  \begin{enumerate}[nosep, after=\strut, leftmargin=1.2em, rightmargin=0.5em, itemsep=5.5pt]
+%    % \small
+%    \item \bibentry{ikram2024techno} %\href{https://doi.org/10.1007/s13369-024-08735-x}{ \faFilePdf[regular]}
+%    \item \bibentry{ikram2024optimizing} %\href{https://doi.org/10.1049/pel2.12663}{\faFilePdf[regular]}
+%    \item \bibentry{hassan2024performance} %\href{https://doi.org/10.1109/ICEEICT62016.2024.10534560}{\faFilePdf[regular]} %| \faAward\;\underline{Ranked in the top 10}} 
+%    \item \bibentry{ikram2023techno} | \faAward\;\underline{Received Best Paper Award}
+%    
+%    %\href{https://doi.org/10.1109/IHCSP56702.2023.10127187}{\faFilePdf[regular] | \faAward\;\underline{Received Best Paper Award}} 
+%    % \item \bibentry{raihan2024highly} %\href{https://doi.org/10.1109/iCACCESS61735.2024.10499621}{\faFilePdf[regular]}
+%    \item \bibentry{ikram2024electrical} %\href{https://doi.org/10.1109/iCACCESS61735.2024.10499454}{\faFilePdf[regular]}
+%    \item \bibentry{rahman2023revolutionizing} %\href{https://doi.org/0.1109/ICPS60393.2023.10428886}{\faFilePdf[regular]}
+%%    \item \bibentry{pranta2023small} \href{https://doi.org/10.1109/ICPS60393.2023.10428825}{\faFilePdf[regular]}
+%    \item \bibentry{ikram2023design} %\href{https://doi.org/10.1109/STI59863.2023.10464595}{\faFilePdf[regular]}
+%%    \item \bibentry{kashfi2023feasibility} \href{https://doi.org/10.1109/STI59863.2023.10464881}{\faFilePdf[regular]}
+%    \item \bibentry{reyad2023design} %\href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456487}{\faFilePdf[regular]}
+%    \item \bibentry{ikram2023grid} %\href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456412}{\faFilePdf[regular]}
+%    \item \bibentry{alam2023cutting} %\href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456525}{\faFilePdf[regular]}
+%    \item \bibentry{farzana2023cognizance} %\href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456528}{\faFilePdf[regular]}
+%    % \item \bibentry{himu2023machine} \href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456428}{\faFilePdf[regular]}
+%    \item \bibentry{siddequy2023performance} %\href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456521}{\faFilePdf[regular]}
+%%    \item \bibentry{islam2023optimal} \href{https://doi.org/10.1109/IHCSP56702.2023.10127165}{\faFilePdf[regular]}
+%    % \item \bibentry{islam2023optimal2} \href{https://doi.org/10.1109/ECCE57851.2023.10101554}{\faFilePdf[regular]}
+%    \item \bibentry{zafar2022economic} %\href{https://doi.org/10.1109/ICECE57408.2022.10088762}{\faFilePdf[regular]}
+%    % \item \bibentry{himu2022modification} \href{https://doi.org/10.1109/STI56238.2022.10103242}{\faFilePdf[regular]}
+%    % \item \bibentry{ikram2022techno}
+%  \end{enumerate} 
+%\vspace{1mm}
+
+
+
+
+
+\section{Publications}   \bibliographystyle{ieeetr} \nobibliography{ref} \vspace{2pt}
+\begin{enumerate}[nosep, after=\strut, leftmargin=1.2em, rightmargin=0.5em, itemsep=5.5pt]
+		% \small
+		
+		\item \bibentry{ikram2024techno} \href{https://doi.org/10.1007/s13369-024-08735-x}{ \faFilePdf[regular]}
+		
+		\item \bibentry{ikram2024optimizing} \href{https://doi.org/10.1049/pel2.12663}{\faFilePdf[regular]}
+		
+		\item \bibentry{hassan2024performance} \href{https://doi.org/10.1109/ICEEICT62016.2024.10534560}{\faFilePdf[regular]} %| \faAward\;\underline{Ranked in the top 10}} 
+		
+		\item \bibentry{ikram2023techno} \href{https://doi.org/10.1109/IHCSP56702.2023.10127187}{\faFilePdf[regular] | \faAward\;\underline{Received Best Paper Award}} 
+		
+		\item \bibentry{raihan2024highly} \href{https://doi.org/10.1109/iCACCESS61735.2024.10499621}{\faFilePdf[regular]}
+		
+		\item \bibentry{ikram2024electrical} \href{https://doi.org/10.1109/iCACCESS61735.2024.10499454}{\faFilePdf[regular]}
+		
+		\item \bibentry{rahman2023revolutionizing} \href{https://doi.org/0.1109/ICPS60393.2023.10428886}{\faFilePdf[regular]}
+	
+		\item \bibentry{pranta2023small} \href{https://doi.org/10.1109/ICPS60393.2023.10428825}{\faFilePdf[regular]}
+		
+		\item \bibentry{ikram2023design} \href{https://doi.org/10.1109/STI59863.2023.10464595}{\faFilePdf[regular]}
+		
+		\item \bibentry{kashfi2023feasibility} \href{https://doi.org/10.1109/STI59863.2023.10464881}{\faFilePdf[regular]}
+		
+		\item \bibentry{reyad2023design} \href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456487}{\faFilePdf[regular]}
+		
+		\item \bibentry{ikram2023grid} \href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456412}{\faFilePdf[regular]}
+		
+		\item \bibentry{alam2023cutting} \href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456525}{\faFilePdf[regular]}
+		
+		\item \bibentry{farzana2023cognizance} \href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456528}{\faFilePdf[regular]}
+		
+		\item \bibentry{himu2023machine} \href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456428}{\faFilePdf[regular]}
+		
+		\item \bibentry{siddequy2023performance} \href{https://doi.org/10.1109/WIECON-ECE60392.2023.10456521}{\faFilePdf[regular]}
+		
+		\item \bibentry{islam2023optimal} \href{https://doi.org/10.1109/IHCSP56702.2023.10127165}{\faFilePdf[regular]}
+	 	
+	 	\item \bibentry{islam2023optimal2} \href{https://doi.org/10.1109/ECCE57851.2023.10101554}{\faFilePdf[regular]}
+	
+		\item \bibentry{zafar2022economic} \href{https://doi.org/10.1109/ICECE57408.2022.10088762}{\faFilePdf[regular]}
+	 	
+	 	\item \bibentry{himu2022modification} \href{https://doi.org/10.1109/STI56238.2022.10103242}{\faFilePdf[regular]}
+	 	
+%	 	\item \bibentry{ikram2022techno}
+\end{enumerate} 
+\vspace{1mm}
+
+
+
+
+
+
+
+
+
+
+  
+% EXPERIENCE
+\section{Experience}
+\begin{tabularx}{\linewidth}{@{}L @{}R}
+\textbf{Data Analyst (Associate)} \hfill \textbf{November 2023 -- February 2025} \\[4pt]
+
+\emph{Catalyst Solutions (a sister concern of ADIVA), Chittagong}\\[4pt]
+\textit{Led a \textbf{team of 5} in conducting statistical analysis on brands’ awareness, perception, and health tracking data, including:}\\[4pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \item Processed large datasets by cleaning and removing outliers to ensure data quality.
+        \item Designed Power BI dashboards to visualize key metrics and trends.
+        \item Reviewed and validated survey questionnaires and program logic.
+        \item Extracted features from the data and performed statistical comparisons.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\vspace{2mm}
+
+% ASSISTANTSHIP
+\section{Teaching \& Assistantships}
+\begin{tabularx}{\linewidth}{@{}L @{}R}
+\textbf{Teaching Assistant} at Faculty of Science \& Engineering \hfill \textbf{January 2023 -- November 2023}\\[4pt]
+\emph{International Islamic University Chittagong, Kumira, Bangladesh}\\[4pt]
+Assisted university faculty in guiding \textbf{20+ undergraduate students} for the following tutorial sessions:\\[4pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \item Bridge-inverter modeling and controlling.
+        \item Designing MPPT-based solar power systems in steady-state conditions.
+        \item Assessing CAPEX and LCOE for projected models.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+% \href{}{Dr. Md. Shafiullah}
+
+\begin{tabularx}{\linewidth}{@{}L @{}R}
+\textbf{Research Assistant} of Dr. Md. Shafiullah \hfill \textbf{November 2022 -- December 2023} \\[2pt]
+\emph{King Fahd University of Petroleum \& Minerals, Dhahran, Saudi Arabia}\\[4pt]
+\textit{Conducted research on waste-to-energy generation systems integrated with renewable energy sources, focusing on annual cost, risk factors, economic life cycle assessment, and environmental impact analysis, resulting in \textbf{8\% cost reduction.}} 
+\end{tabularx}
+
+\vspace{2mm}
+
+
+\section{Training}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Industrial Trainee} on Distributed Transformer Design \& Manufacturing \hfill \textbf{January 2022 -- February 2022}\\[4pt]
+\emph{General Electric Manufacturing Company Limited, Patenga} \\[4pt]
+Gained practical knowledge in the manufacturing, planning, design, and maintenance of transformers, including:\\[4pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \item Specifying core and winding sizes based on voltage and load requirements.
+        \item Ensuring proper insulation for thermal and electrical stability.
+        \item Conducting Megger tests to measure insulation resistance and identify faults.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+\vspace{2mm}
+
+ 
+
+
+
+
+%Skills
+\section{Skills}
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[label=, nosep,after=\strut, leftmargin=0em, itemsep=2pt]
+        \vspace{5pt}
+        \item \textbf{Programming:} Python, MATLAB, Bash, and SQL.
+        \item \textbf{Engineering:} Octave, Microwind, Cadence, RETScreen, TRNSYS, AutoCAD (Electrical), and Proteus. 
+        \item \textbf{Developer Tools:} Git, VS-Code, PyCharm, Google Colab, Jupyter Notebook, Arduino.
+        \item \textbf{Libraries:} NumPy, pandas, Matplotlib, SNS, TensorFlow, and SciKit.
+        \item \textbf{Data Analytics:} Data cleaning, large dataset handling, Excel (Pivot tables, Macros), R programming (Basic), Power BI.
+        \item \textbf{Office Application:} Google Suite \& Microsoft Office, PIVOT, VBA Macros.
+        \item \textbf{Writing \& formatting:} \LaTeX, EndNote and Mendeley. 
+        \item \textbf{OS \& Utilities:} Linux CLI, file system navigation.
+        \end{itemize}
+% \emph{*Proficient in both Linux CLI and Windows OS. }
+\end{minipage} 
+
+\vspace{4mm}
+
+
+
+
+
+
+
+
+
+%VOLUNTEERING  \ExternalLink
+% \section{Achievements}
+% \vspace{2mm}
+% \textbf{Top-10 Best Student Paper Award} at \textbf{IEEE-ICEEICT} \hfill \textbf{May 2024} \\[4pt]
+%     \textit{This study used both machine learning and ensemble learning techniques to determine the optimal approach to the stability of the smart grid.} \\[-8pt] %\textbf{\href{https://ieeexplore.ieee.org/abstract/document/10499454}{Link}}
+
+% \textbf{Best Paper Award of the Session} at \textbf{IEEE-IHCSP} \hfill \textbf{March 2023} \\[4pt]
+%     \textit{This study used the metaheuristic optimization technique to reduce up to 25\% annual greenhouse gas emissions by varying penetration rates.} \\[-8pt] %\textbf{\href{https://link.springer.com/article/10.1007/s13369-024-08735-x}{Link}}
+
+% \textbf{Placed 2$^{nd}$ on microcontroller-based Project Showcase} at \textbf{IIUC} \hfill \textbf{August 2018} \\[4pt]
+%     \textit{Project focused on smart farming (real-time humidity control and pumping water on demand) for improving agricultural management}\\[-8pt]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% AWARDS
+\section{Achievements} \vspace{1mm}
+\textbf{Top-10 Best Student Paper Award} at \textbf{IEEE-ICEEICT} \hfill \textbf{May 2024} \\[2pt]
+    \textit{This study used both machine learning and ensemble learning techniques to determine the optimal approach to the stability of the smart grid.} \\[3pt] %\textbf{\href{https://ieeexplore.ieee.org/abstract/document/10499454}{Link}}
+\textbf{Best Paper Award of the Session} at \textbf{IEEE-IHCSP} \hfill \textbf{March 2023} \\[2pt]
+    \textit{This study used the metaheuristic optimization technique to reduce up to 25\% annual greenhouse gas emissions by varying penetration rates.} \\[3pt] %\textbf{\href{https://link.springer.com/article/10.1007/s13369-024-08735-x}{Link}}
+\textbf{Placed 2$^{nd}$ on microcontroller-based Project Showcase} at \textbf{IIUC} \hfill \textbf{August 2018} \\[2pt]
+    \textit{Project focused on smart farming (real-time humidity control and pumping water on demand) for improving agricultural management.}
+    % \\[-2pt]
+
+
+
+ 
+ 
+
+
+ %CERTIFICATION
+\section{Certifications}
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \vspace{5pt}
+        % \item SOC Analyst by EC-Council – \textit{In Progress} (Expected July 2025).
+        % \item Ethical Hacker by EC-Council – \textit{In Progress} (Expected August 2025).
+        \item SourceCAD logo AutoCAD Electrical Essentials Course.
+        \item Microsoft Security Essentials Professional Certificate.
+        \item Career Essentials in Data Analysis by Microsoft.
+        \item Artificial Neural Networks (ANN) with Keras in Python and R.
+        \item SQL for Data Science by Coursera-UCDavis.
+        \item MATLAB Programming for Engineers and Scientists Specialization.
+        \item Python Programming: Machine Learning, Deep Learning.
+        \end{itemize}
+\end{minipage}\\[-5pt]
+
+ 
+
+% LINGUISTIC PROFICIENCY
+\section{Linguistic Proficiency}
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep, leftmargin=0.1em, itemsep=2pt, label=]
+        \vspace{5pt}
+        \item \textbf{English:} Proficient % (\textbf{IELTS -- 7.00})% [W-6.5, S-6.5, R-6.5, L-8.0]. 
+        \item \textbf{Bengali:} Native. 
+        \end{itemize}
+\end{minipage}\\[-1pt]
+
+
+
+% VOLUNTEERING 
+\section{Volunteering}
+\begin{tabularx}{\linewidth}{@{}L @{}R}
+	\textbf{Senior Executive} at Embedded \& Robotics Group IIUC \hfill \textbf{January 2021 -- December 2021}\\[2pt]
+	\emph{Collaborated with a team to conduct a training program attended by \textbf{10+ students} covering topics such as:}\\[4pt]
+	\begin{minipage}[t]{\linewidth}
+		\begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+			\item A tutorial session on basic Arduino and Python programming. 
+			\item A webinar on Arduino controllers, Raspberry Pi, and IoT-based projects.
+			\item A workshop on microcontroller-based line follower robots, including sensor interfacing and applications.
+		\end{itemize}
+	\end{minipage}
+\end{tabularx}
+
+
+
+% REFERENCES 
+%\section{References} \vspace{1mm} 
+%\textbf{Dr. Eftekhar Alam}\\
+%\textit{Associate Professor}, Dept.  Electrical and Electronic Engineering\\ 
+%Faculty of Science and Engineering,\\
+%International Islamic University Chittagong\\
+%Email: eftekhar@iiuc.ac.bd\\[2mm]
+%%       %
+%\textbf{Dr. Md. Aasim Ullah}\\
+%\textit{Assistant Professor}, Dept.  Electrical and Electronic Engineering\\ 
+%Faculty of Science and Engineering,\\
+%International Islamic University Chittagong\\
+%Email: aasim@iiuc.ac.bd\\[2mm]
+%%       %
+%\textbf{Dr. Md. Shafiullah}\\
+%\textit{Assistant Professor}, Department of Control \& Instrumentation Engineering (CIE)\\
+%Interdisciplinary Research Center for Renewable Energy and Power Systems\\
+%King Fahd University of Petroleum and Minerals, Saudi Arabia \\
+%Email: shafiullah@kfupm.edu.sa\\
+%
+
+
+
+% EXTRACURRICULAR ACTIVITIES
+% \section{EXTRACURRICULAR ACTIVITIES}
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+%         \vspace{5pt}
+        % \item SReceived the Top-10 Best Student Paper Award for the novel approach of using ensemble-learning method to forecast the smart grid stability using historical datasets. (IEEE-ICEEICT 2024) [as a team] 
+        % \item Received the Best Paper Award of Session for assessing the environmental performance across varying penetration rates, effectively integrating conventional networks and other energy sources to address the intermittency of renewable power output. (IEEE-IHCSP 2023) [as a team] 
+        % \item Project Showcase – “IoT-based Railway Gate control” at International Conference on Innovations in Science, Engineering and Technology 2018 (ICISET 2018).  
+        % \item Project Showcase – “Smart agricultural System using PIC microcontroller” at EEE Fest 2018, IIUC. (2nd) 
+        % \item Webinar – “Microcontroller and Integration to IoT” by IEEE Robotics & Automation Society. 
+        % \item Awarded as the best poster presenter of “Dynamic Charging Station for Electric Vehicle” IIUC Tech Fest.
+
+%         \end{itemize}
+% \end{minipage}\\[-5pt]
+
+ 
+
+
+\end{document}
