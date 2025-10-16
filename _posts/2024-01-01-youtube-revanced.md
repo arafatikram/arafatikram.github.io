@@ -29,6 +29,7 @@ toc:
   - name: Installation
   - name: Patches
   - name: Disclaimer
+  - name: Download Builds
   - name: Thanks To
 
 # Below is an example of injecting additional post-specific styles.
@@ -120,8 +121,12 @@ _styles: >
 ## Disclaimer
 This patch modifies the original APK, and may violate the app provider's terms of service. Use at your own risk.
 
+## Download Builds
+[Download](https://github.com/mentalblank/YouTube-Revanced/releases/tag/47)
+
 ## Thanks To:
 [j-hc](https://github.com/j-hc) & [ReVanced](https://github.com/ReVanced)
+
 ---
 
 Interested in the project? Check out the original here ([link to the project](https://github.com/mentalblank/YouTube-Revanced)).
