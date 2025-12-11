@@ -5,7 +5,7 @@ description: Insights from our newly published research in The Journal of Engine
 
 tags: SmartHome,  Optimization, LoadScheduling
 # giscus_comments: false
-date: 2024-02-14
+date: 2025-12-02
 featured: true
 mermaid:
   enabled: true
