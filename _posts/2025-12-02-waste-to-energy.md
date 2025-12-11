@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: 🔋♻️ Turning Waste Into Power: A New Pathway for Affordable Clean Energy in Developing Regions
+title: Turning Waste Into Power: A New Pathway for Affordable Clean Energy in Developing Regions
 description: Insights from our newly published research in The Journal of Engineering (IET/Wiley)
 
 tags: SmartHome,  Optimization, LoadScheduling
