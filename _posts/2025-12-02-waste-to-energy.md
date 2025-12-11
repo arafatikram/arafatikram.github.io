@@ -1,11 +1,11 @@
 ---
 layout: distill
-title: Economic assessment of the Waste-to-energy integrated microgrid system
-description: Turning Waste Into Power: A New Pathway for Affordable Clean Energy in Developing Regions
+title: Optimizing Smart Home Energy Consumption Strategies
+description: Optimizing Energy Consumption in Smart Homes A Breakthrough in Load Scheduling
 
-tags: WasteToEnergy,  Optimization, Microgrid
+tags: SmartHome,  Optimization, LoadScheduling
 # giscus_comments: false
-date: 2025-12-02
+date: 2024-02-14
 featured: true
 mermaid:
   enabled: true
@@ -18,6 +18,7 @@ mermaid:
 #   vega_lite: false
 # tikzjax: false
 # typograms: false
+
 
 authors:
   - name: Arafat Ibne Ikram
