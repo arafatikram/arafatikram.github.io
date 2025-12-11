@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: Optimizing Smart Home Energy Consumption Strategies
-description: Optimizing Energy Consumption in Smart Homes A Breakthrough in Load Scheduling
+title: Economic assessment of the Waste-to-energy integrated microgrid system
+description: A New Pathway for Affordable Clean Energy in Developing Regions
 
 tags: SmartHome,  Optimization, LoadScheduling
 # giscus_comments: false
