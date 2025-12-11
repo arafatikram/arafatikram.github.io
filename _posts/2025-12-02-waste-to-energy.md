@@ -24,18 +24,6 @@ authors:
     url: "https://scholar.google.com/citations?user=gml3L4MAAAAJ"
     affiliations:
       name: RA, IIUC
- - name: Md. Sajjad-Ul Islam Md. Arafat Bin Zafar
-    url: "https://scholar.google.com/citations?user=lAH2jIwAAAAJ&hl=en"
-     affiliations:
-       name: MS, FaU, Germany
-  - name: Md. Rashidul Islam
-    url: "[https://scholar.google.com/citations?user=IrQqEgIAAAAJ&hl=en](https://scholar.google.com/citations?user=oalwkycAAAAJ&hl=en)"
-    affiliations:
-      name: Assistant Professor, NSTU, Bangladesh
-  - name: Dr. Md Shafiullah
-    url: "https://scholar.google.com/citations?user=IrQqEgIAAAAJ&hl=en"
-    affiliations:
-      name: Assistant Professor, KFUPM, Saudi Arabia
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
