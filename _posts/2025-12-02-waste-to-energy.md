@@ -139,9 +139,9 @@ Integrating WtE reduced the system’s Levelized Cost of Energy (LCoE):
 
 ### 2. GWO Produced the Best Overall Performance
 LCoE Results:
-🟢 GWO: $0.221/kWh
-🔵 PSO: $0.223/kWh
-🔴 HOMER: $0.468/kWh
+-🟢 GWO: $0.221/kWh
+-🔵 PSO: $0.223/kWh
+-🔴 HOMER: $0.468/kWh
 GWO achieved the optimum 10× faster than PSO.
 
 ### 3. PSO Achieved the Lowest Carbon Emissions
