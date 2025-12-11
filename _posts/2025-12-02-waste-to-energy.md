@@ -1,11 +1,11 @@
 ---
 layout: distill
-title: Optimizing Smart Home Energy Consumption Strategies
-description: Optimizing Energy Consumption in Smart Homes A Breakthrough in Load Scheduling
+title: Economic assessment of the Waste-to-energy integrated microgrid system
+description: Turning Waste Into Power: A New Pathway for Affordable Clean Energy in Developing Regions
 
-tags: SmartHome,  Optimization, LoadScheduling
+tags: WasteToEnergy,  Optimization, Microgrid
 # giscus_comments: false
-date: 2024-02-14
+date: 2025-12-02
 featured: true
 mermaid:
   enabled: true
@@ -24,14 +24,18 @@ authors:
     url: "https://scholar.google.com/citations?user=gml3L4MAAAAJ"
     affiliations:
       name: RA, IIUC
-  - name: Dr. Md. Aasim Ullah
-    url: "https://www.iiuc.ac.bd/profile/view/2412"
+ - name: Md. Sajjad-Ul Islam Md. Arafat Bin Zafar
+    url: "https://scholar.google.com/citations?user=lAH2jIwAAAAJ&hl=en"
+     affiliations:
+       name: MS, FaU, Germany
+  - name: Md. Rashidul Islam
+    url: "[https://scholar.google.com/citations?user=IrQqEgIAAAAJ&hl=en](https://scholar.google.com/citations?user=oalwkycAAAAJ&hl=en)"
     affiliations:
-      name: Assistant Professor, IIUC
-#   - name: Nathan Rosen
-#     url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-#     affiliations:
-#       name: IAS, Princeton
+      name: Assistant Professor, NSTU, Bangladesh
+  - name: Dr. Md Shafiullah
+    url: "https://scholar.google.com/citations?user=IrQqEgIAAAAJ&hl=en"
+    affiliations:
+      name: Assistant Professor, KFUPM, Saudi Arabia
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
