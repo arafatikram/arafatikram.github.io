@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top-10 Best Student Paper Award!!! ⚡
+title: Published a case study on Chattogram (city of Bangladesh) using WTE and hybrid renewables !!! ⚡
 date: 2024-05-04 15:59:00-0400
 inline: true
 related_posts: ture
