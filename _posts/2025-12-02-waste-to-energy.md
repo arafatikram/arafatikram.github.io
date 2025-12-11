@@ -2,7 +2,6 @@
 layout: distill
 title: Turning Waste Into Power: A New Pathway for Affordable Clean Energy in Developing Regions
 description: Insights from our newly published research in The Journal of Engineering
-
 tags: SmartHome,  Optimization, LoadScheduling
 # giscus_comments: false
 date: 2025-12-02
@@ -24,8 +23,7 @@ authors:
     url: "https://scholar.google.com/citations?user=gml3L4MAAAAJ"
     affiliations:
       name: RA, IIUC, Bangladesh
-      
- - name: Md. Sajjad-Ul Islam & Md. Arafat Bin Zafar
+ - name: Md. Sajjad-Ul Islam Md. Arafat Bin Zafar
     url: "https://scholar.google.com/citations?user=lAH2jIwAAAAJ&hl=en"
      affiliations:
        name: MS, FaU, Germany
