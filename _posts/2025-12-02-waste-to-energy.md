@@ -86,6 +86,8 @@ _styles: >
   }
 ---
 
+
+
 ## Foundation
 
 As the global demand for clean and reliable energy surges, developing countries continue to face unique challenges: rising consumption, unstable grids, and mounting waste generation. Traditional fossil-fuel solutions are no longer viable—economically or environmentally. This is where hybrid microgrids powered by renewables and waste-to-energy (WtE) technologies offer a transformative opportunity.
