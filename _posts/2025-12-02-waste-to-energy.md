@@ -19,7 +19,6 @@ mermaid:
 # tikzjax: false
 # typograms: false
 
-
 authors:
   - name: Arafat Ibne Ikram
     url: "https://scholar.google.com/citations?user=gml3L4MAAAAJ"
@@ -61,12 +60,6 @@ toc:
   - name: Future Directions
   - name: Closure
 
-#   - name: Leaflet
-#   - name: Chartjs, Echarts and Vega-Lite
-#   - name: TikZ
-#   - name: Typograms
-#   - name: Layouts
-#   - name: Other Typography?
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -85,9 +78,8 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
+  
 ---
-
-
 
 ## Foundation
 
@@ -183,7 +175,7 @@ Both optimized systems show major emission reductions.
 
 ## Why This Study Matters
 
-This research provides a scalable blueprint for solving dual challenges of energy scarcity and waste management.
+This research provides a scalable blueprint for solving the dual challenges of energy scarcity and waste management.
 
 It can benefit:
 - Remote islands
@@ -194,15 +186,11 @@ It demonstrates that waste is not a burden—it's a resource.
 
 ---
 
-
 ## Final Thoughts
 
 Our work shows that WtE-integrated renewable microgrids can deliver stable, low-cost, and environmentally friendly electricity—especially in developing regions.
 
 The combination of optimization algorithms (GWO & PSO) and real-world data provides a dependable framework for future microgrid planning.
-
-
-
 
 
 
