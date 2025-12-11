@@ -3,7 +3,7 @@ layout: distill
 title: Economic assessment of the Waste-to-energy integrated microgrid system
 description: A New Pathway for Affordable Clean Energy in Developing Regions
 
-tags: SmartHome,  Optimization, LoadScheduling
+tags: WtE,  Optimization, Microgrid
 # giscus_comments: false
 date: 2024-02-14
 featured: true
