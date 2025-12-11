@@ -1,10 +1,11 @@
 ---
 layout: distill
-title: Turning Waste Into Power: A New Pathway for Affordable Clean Energy in Developing Regions
-description: Insights from our newly published research in The Journal of Engineering
+title: Optimizing Smart Home Energy Consumption Strategies
+description: Optimizing Energy Consumption in Smart Homes A Breakthrough in Load Scheduling
+
 tags: SmartHome,  Optimization, LoadScheduling
 # giscus_comments: false
-date: 2025-12-02
+date: 2024-02-14
 featured: true
 mermaid:
   enabled: true
@@ -22,19 +23,15 @@ authors:
   - name: Arafat Ibne Ikram
     url: "https://scholar.google.com/citations?user=gml3L4MAAAAJ"
     affiliations:
-      name: RA, IIUC, Bangladesh
- - name: Md. Sajjad-Ul Islam Md. Arafat Bin Zafar
-    url: "https://scholar.google.com/citations?user=lAH2jIwAAAAJ&hl=en"
-     affiliations:
-       name: MS, FaU, Germany
-  - name: Md. Rashidul Islam
-    url: "[https://scholar.google.com/citations?user=IrQqEgIAAAAJ&hl=en](https://scholar.google.com/citations?user=oalwkycAAAAJ&hl=en)"
+      name: RA, IIUC
+  - name: Dr. Md. Aasim Ullah
+    url: "https://www.iiuc.ac.bd/profile/view/2412"
     affiliations:
-      name: Assistant Professor, NSTU, Bangladesh
-  - name: Dr. Md Shafiullah
-    url: "https://scholar.google.com/citations?user=IrQqEgIAAAAJ&hl=en"
-    affiliations:
-      name: Assistant Professor, KFUPM, Saudi Arabia
+      name: Assistant Professor, IIUC
+#   - name: Nathan Rosen
+#     url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+#     affiliations:
+#       name: IAS, Princeton
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -58,6 +55,12 @@ toc:
   - name: Future Directions
   - name: Closure
 
+#   - name: Leaflet
+#   - name: Chartjs, Echarts and Vega-Lite
+#   - name: TikZ
+#   - name: Typograms
+#   - name: Layouts
+#   - name: Other Typography?
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -76,122 +79,127 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
-  
 ---
 
 ## Foundation
 
-As the global demand for clean and reliable energy surges, developing countries continue to face unique challenges: rising consumption, unstable grids, and mounting waste generation. Traditional fossil-fuel solutions are no longer viable—economically or environmentally. This is where hybrid microgrids powered by renewables and waste-to-energy (WtE) technologies offer a transformative opportunity.
-
-Our newly published research, “Cost-Effective Optimal Integration of Renewable Energy and Waste-to-Energy Technologies,” presents a cutting-edge optimization framework designed to build cleaner, cheaper, and more reliable microgrids for regions with limited energy access.
+In an era of rising fuel prices and growing environmental concerns, optimizing energy consumption in households has become more critical than ever. A recent research paper titled "Optimizing Energy Consumption in Smart Homes: Load Scheduling Approaches" by A. I. Ikram and colleagues presents an innovative solution to this challenge. The study explores how smart home energy management systems (SHEMS) can reduce electricity costs and minimize peak-to-average energy consumption ratios while maintaining user comfort.
 
 ---
 
+## Challenges
 
-## Why We Conducted This Study
+Traditional energy grids rely heavily on fossil fuels, contributing to carbon emissions and environmental degradation. With the increasing adoption of renewable energy sources (RES) like solar panels, managing energy consumption efficiently has become complex. The study addresses this by focusing on:
 
-Bangladesh, like many developing nations, faces three major hurdles:
-- Growing electricity demand
-- Dependence on fossil fuels
-- Increasing municipal solid waste
-
-Remote communities such as Halishahar in Chattogram often rely on expensive diesel generators or unstable grid connections. At the same time, the area generates hundreds of tons of waste daily—an untapped energy resource.
-
-Our goal was to design a practical, real-world solution that:
-- Minimizes energy cost
-- Reduces carbon emissions
-- Utilizes local renewable and waste resources
-- Ensures a continuous electricity supply
-
+- Reducing electricity costs for homeowners.
+- Balancing energy demand to avoid peak-hour overloads.
+- Integrating renewable energy sources like solar power with battery storage.
 
 ---
-
 
 ## Proposed Solution
 
-Our proposed microgrid combines five energy technologies:
-- Solar PV 🌞
-- Wind Turbines 🌬
-- Waste-to-Energy (FastOx Gasification) ♻️
-- Battery Energy Storage 🔋
-- Diesel Generator (backup only) ⚙️
+The researchers developed a smart home model equipped with:
+
+- Rooftop solar panels for renewable energy generation.
+- Battery storage to store excess solar energy.
+- Shiftable and non-shiftable loads to categorize household appliances based on their flexibility in usage time.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/islam2025cost.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Diagram-load-scheduling.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     System Diagram.
 </div>
 
-To find the most cost-effective configuration, we applied two advanced optimization algorithms:
-- Particle Swarm Optimization (PSO)
-- Grey Wolf Optimization (GWO)
-- We also benchmarked results using HOMER, the industry-standard microgrid design software.
+---
+
+Key Components:
+
+### Solar Panel Modeling
+
+- The study used mathematical models to estimate solar energy generation based on sunlight availability.
+- Equations accounted for solar radiation, temperature, and panel efficiency to predict hourly energy output.
+
+### Battery Storage System
+
+- Excess solar energy was stored in batteries for use during non-generating hours (e.g., nighttime).
+- The state of charge (SOC) of the battery was monitored to ensure optimal energy usage.
+
+### Load Classification
+
+- Shiftable Loads: Appliances like washing machines, water heaters, and microwaves, whose usage times can be adjusted.
+- Non-Shiftable Loads: Essential appliances like refrigerators and lights that must operate continuously.
 
 ---
 
+## Optimization Techniques
 
-## Key Findings
+The study employed two meta-heuristic algorithms to schedule shiftable loads efficiently:
 
-### 1. WtE Dramatically Lowers Energy Cost
-Integrating WtE reduced the system’s Levelized Cost of Energy (LCoE):
-− 22.6% compared to systems without WtE
-− 52.8% compared to HOMER’s baseline
+### Particle Swarm Optimization (PSO)
 
-### 2. GWO Produced the Best Overall Performance
-LCoE Results:
-🟢 GWO: $0.221/kWh
-🔵 PSO: $0.223/kWh
-🔴 HOMER: $0.468/kWh
-GWO achieved the optimum 10× faster than PSO.
+- Inspired by the social behavior of birds, PSO iteratively adjusts the time of use (TOU) for appliances to minimize costs.
+- It quickly converges to optimal solutions by balancing individual and collective best positions.
 
-### 3. PSO Achieved the Lowest Carbon Emissions
-PSO reduced annual CO₂ emissions to 27,177 tons, outperforming both GWO and HOMER.
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/PSO-load-scheduling.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    System Diagram.
+</div>
 
-### 4. Solar + WtE = Most Reliable Combination
-Annual energy contributions:
-- Solar: ~70,000+ MWh
-- WtE: ~63,000 MWh
-- Wind: Lower (location dependent)
+### Real-Coded Genetic Algorithm (RCGA)
 
-### 5. Real-World Case Study: Halishahar
-Using NASA meteorological data, PGCB load data, and local waste profiles, our microgrid met:
-- 107,150 MWh annual demand reliably
-- With renewable-driven generation
+- A variation of genetic algorithms using real-valued vectors to represent appliance schedules.
+- It uses crossover and mutation to explore optimal TOU configurations, ensuring diversity in solutions.
 
-
-### Environmental Impact
-Annual CO₂ emissions:
-- PSO: 27,177 tons
-- GWO: 33,702 tons
-- HOMER baseline: 35,693 tons
-Both optimized systems show major emission reductions.
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/GA-load-scheduling.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    System Diagram.
+</div>
 
 ---
 
-## Why This Study Matters
+## Results and Outcomes
 
-This research provides a scalable blueprint for solving the dual challenges of energy scarcity and waste management.
+The optimization strategies yielded impressive results:
 
-It can benefit:
-- Remote islands
-- Off-grid rural communities
-- Urban areas with high waste production
-- Disaster-prone regions needing resilient energy
-It demonstrates that waste is not a burden—it's a resource.
+- Reduced Electricity Costs: Daily costs dropped from 507.12 BDT (before optimization) to 484.33 BDT, a 4.5% reduction.
+- Lower Peak Demand: Load curves showed a more balanced energy distribution, avoiding spikes during peak hours.
+- User Comfort Maintained: Appliances operated at optimal times without disrupting daily routines.
 
----
+Key Findings:
 
-## Final Thoughts
-
-Our work shows that WtE-integrated renewable microgrids can deliver stable, low-cost, and environmentally friendly electricity—especially in developing regions.
-
-The combination of optimization algorithms (GWO & PSO) and real-world data provides a dependable framework for future microgrid planning.
-
-
+- PSO vs. RCGA: Both algorithms achieved similar cost reductions, but RCGA produced a more symmetrical load curve, avoiding excessive peak demands.
+- Seasonal Variations: The model was tested for both summer and winter, showing consistent performance across different energy consumption patterns.
 
 ---
 
-Interested in the full paper? Check out the original research here ([link to the paper](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/tje2.70148)).
+## Future Directions
+
+The study opens doors for further advancements:
+
+- Hybrid Energy Systems: Integrating wind turbines or diesel generators alongside solar panels.
+- Real-Time Pricing Models: Adapting to dynamic electricity tariffs for even greater savings.
+- vAdvanced Algorithms: Exploring other optimization techniques like deep reinforcement learning for smarter scheduling.
+
+---
+
+## Conclusion
+
+This research demonstrates how smart home energy management systems can significantly cut costs and improve efficiency. By leveraging renewable energy and intelligent load scheduling, households can contribute to a greener future while enjoying economic benefits.
+
+For homeowners, utilities, and policymakers, these findings highlight the potential of SHEMS in revolutionizing energy consumption. As technology evolves, smarter and more adaptive systems will further enhance these benefits, paving the way for sustainable living.
+
+---
+
+Interested in the full paper? Check out the original research here ([link to the paper](https://doi.org/10.1049/pel2.12663)).
