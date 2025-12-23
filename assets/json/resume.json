@@ -15,7 +15,7 @@
     },
     "profiles": [
       {
-        "network": "Linkedin",
+        "network": "LinkedIn",
         "username": "arafat-ibne-ikram",
         "url": "https://www.linkedin.com/in/arafat-ibne-ikram"
       }
@@ -23,25 +23,36 @@
   },
   "work": [
     {
+
+      
+      "name": "Park (Bangladesh) Company Ltd.",
+      "position": "Maintenance engineer (Electrical)",
+      "url": "hhttps://bd.linkedin.com/company/park-bangladesh-ltd",
+      "startDate": "2025-03-05",
+      "endDate": "2024-11-30",
+      "summary": "Responsible for electrical system installation, compliance, and maintenance operations, including:",
+      "highlights": [" Performed preventive and corrective maintenance following approved procedures", "Ensured compliance with government, corporate safety, and environmental regulations", "Supported unit management in departmental and facility budget preparation"]
+    },
+    {
       "name": "Catalyst Solutions (Sister concern of Adiva Graphics)",
       "position": "Data Analyst (Associate)",
       "url": "https://www.linkedin.com/company/adiva-graphics",
-      "startDate": "2024-01-01",
-      "endDate": "2024-11-30",
-      "summary": "Primary task was to analyse, visualize, and error checking of market research data including collected brand public awareness, brand perception, brand health tracking data for world leading research firm such as IPSOS & LRW material..",
-      "highlights": ["Data Manupulatiom", "Statistical Operation", "Data Cleaning", "Error Checking", "Data Visualization"]
+      "startDate": "2023-11-15",
+      "endDate": "2024-02-28",
+      "summary": "Primary task was to analyse, visualize, and error-checking of market research data, including collected brand public awareness, brand perception, brand health tracking data for world-leading research firms such as IPSOS & LRW material..",
+      "highlights": ["Data Manipulation", "Statistical Operation", "Data Cleaning", "Error Checking", "Data Visualization"]
     },
     {
       "name": "International Islamic University Chittagong",
       "position": "Graduate Teaching Assistant",
       "url": "https://www.iiuc.ac.bd/",
       "startDate": "2023-01-05",
-      "endDate": "2023-11-19",
-      "summary": "GTA for the following Tutorial sessions, Laboratory demonstrations, and Viva session of undergraduate program",
+      "endDate": "2023-11-01",
+      "summary": "GTA for the following Tutorial sessions, Laboratory demonstrations, and Viva session of the undergraduate program",
       "highlights": [
         "Assessing Renewable generation using Weibull distribution & beta function.",
-        "MPPT based PV Design using MATLAB simulation environment.",
-        "Simulation on HOMER for Distributed generation and assessing CAPEX and LCOE for projected model."
+        "MPPT-based PV Design using MATLAB simulation environment.",
+        "Simulation on HOMER for Distributed generation and assessing CAPEX and LCOE for the projected model."
       ]
     },
     {
@@ -51,7 +62,7 @@
       "startDate": "2023-01-05",
       "endDate": "2023-02-07",
       "summary": "Acquired knowledge about Distributed Transformer Manufacturing, Planning, Designing, and Maintenance.",
-      "highlights": ["Coil binding/turn ratio", "Megger testing", "Measureing core loss and copper loss"]
+      "highlights": ["Coil binding/turn ratio", "Megger testing", "Measuring core loss and copper loss"]
     }
   ],
   "volunteer": [
@@ -65,16 +76,16 @@
       "endDate": "2021-12-18",
       "summary": "Utilized communication skill, analytical ability to lead the team to achieve the best group of all while advancing the trainee session.",
       "highlights": [
-        "Arranging workshop on Line follower robots, application of various sensor.",
+        "Arranging workshop on Line follower robots, application of various sensors.",
         "Arduino and Python programming workshop.",
-        "Webinar for undergraduate students about IoT based project, Arduino, Raspberry pi etc."
+        "Webinar for undergraduate students about IoT-based project, Arduino, Raspberry Pi etc."
       ]
     }
   ],
   "education": [
     {
       "institution": "International Islamic University Chittagong",
-      "location": "Chittagong, Bangadesh",
+      "location": "Chittagong, Bangladesh",
       "url": "https://www.iiuc.ac.bd/eee",
       "area": "Electrical and Electronics Engineering",
       "studyType": "Bachelor of Science",
@@ -96,7 +107,7 @@
       "date": "2023-03-05",
       "awarder": "IEEE-IHCSP 2023",
       "url": "https://ieeexplore.ieee.org/document/10534560/",
-      "summary": "Study describe the novel apporach of using ensemble-learning method to forecast the smart grid stability using historical datasets."
+      "summary": "The Study describes the novel approach of using an ensemble-learning method to forecast the smart grid stability using historical datasets."
     }
   ],
   "publications": [
@@ -124,7 +135,7 @@
       "url": "https://pure.kfupm.edu.sa/en/organisations/interdisciplinary-research-center-for-sustainable-energy-systems",
       "startDate": "2022-11-23",
       "endDate": "2023-10-03",
-      "summary": "Waste-to-energy generation sources incorporated with renewable energy sources considering annual cost, risk factor, and life cycle assessment were assessed in this work, manuscript is under consideration for publication.",
+      "summary": "Waste-to-energy generation sources incorporated with renewable energy sources, considering annual cost, risk factor, and life cycle assessment, were assessed in this work. manuscript is under consideration for publication.",
       "highlights": ["Meta-heuristic Optimization", "Energy Conversion", "Energy Market Pricing and Distributions"]
     }
   ],
@@ -139,7 +150,7 @@
     {
       "name": "MATLAB Programming for Engineers and Scientists Specialization",
       "date": "2023-08-01",
-      "issuer": "Vanderbilt University (via coursera)",
+      "issuer": "Vanderbilt University (via Coursera)",
       "url": "https://www.coursera.org/learn/matlab",
       "icon": "fa-solid fa-clipboard-check"
     },
@@ -183,11 +194,11 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "C/C++ (Basic)",
-        "Pyhton (Intermediate)",
+        "Python (Intermediate)",
         "MATLAB (Intermediate)",
         "Bash/scripting (Basic)",
         "MYSQL (Intermediate)",
-        "LaTeX (Advance)"
+        "LaTeX (Advanced)"
       ]
     }
   ],
@@ -205,7 +216,7 @@
   ],
   "projects": [
     {
-      "name": "IoT based Smart traffic control (#Halted)",
+      "name": "IoT-based Smart traffic control (#Halted)",
       "summary": "IoT-based smart traffic control uses interconnected devices to optimize traffic flow, reduce congestion, and enhance road safety through real-time monitoring and adaptive signaling. ",
       "highlights": ["Internet of Things", "Raspberry Pi", "Python Automation"],
       "startDate": "2020-05-01",
@@ -213,14 +224,14 @@
     },
     {
       "name": "Smart Agriculture System",
-      "summary": "PIC based, Automatic Agricultural system that pump water to plant and control humidity as needed.",
+      "summary": "PIC-based, Automatic Agricultural system that pumps water to plants and controls humidity as needed.",
       "highlights": ["PIC Microcontroller", "Automation"],
       "startDate": "2019-01-5",
       "endDate": "2019-10-9"
     },
     {
       "name": "Arduino automatic Rail-Gate control",
-      "summary": "Arduino based Project, that would close and open the gate respect to whether train crossing the road.",
+      "summary": "Arduino-based Project, that would close and open the gate with respect to whether a train is crossing the road.",
       "highlights": ["Arduino", "Microcontroller"],
       "startDate": "2018-10-01",
       "endDate": "2018-12-01"
