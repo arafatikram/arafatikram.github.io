@@ -54,7 +54,7 @@ ninja.data = [{
           title: 'Excited to present at the 2023 IEEE 9th WIECON-ECE',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_4/";
+              window.location.href = "/news/announcement_04/";
             },},{id: "news-during-my-time-as-a-graduate-teaching-assistant-i-had-the-chance-to-collaborate-with-a-professor-on-optimizing-energy-consumption-in-smart-homes-we-focused-on-load-scheduling-approaches-to-enhance-efficiency-and-reduce-costs-our-work-guided-by-dr-asim-ullah-fundded-by-fse-dept-of-eee-iiuc-was-published-in-iet-power-electronics-2024-this-experience-was-incredibly-enriching-and-deepened-my-understanding-of-smart-home-technologies-download-pdf",
           title: 'During my time as a graduate teaching assistant, I had the chance to...',
           description: "",
