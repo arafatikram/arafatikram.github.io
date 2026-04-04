@@ -49,7 +49,7 @@ ninja.data = [{
           title: 'Excited to share our findings at STI2023',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
+              window.location.href = "/news/announcement_03/";
             },},{id: "news-excited-to-present-at-the-2023-ieee-9th-wiecon-ece",
           title: 'Excited to present at the 2023 IEEE 9th WIECON-ECE',
           description: "",
