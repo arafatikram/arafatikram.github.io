@@ -65,7 +65,7 @@ ninja.data = [{
           title: 'Excited to share insights on Oral Presentaion on iCACCESS2024',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
+              window.location.href = "/news/announcement_02/";
             },},{id: "news-top-10-best-student-paper-award",
           title: 'Top-10 Best Student Paper Award!!! ⚡',
           description: "",
