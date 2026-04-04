@@ -78,7 +78,7 @@ ninja.data = [{
           title: 'Advancing Microgrid Optimization Under Uncertainty !!! ⚡',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_9/";
+              window.location.href = "/news/announcement_09/";
             },},{id: "news-our-work-is-among-our-most-cited-papers",
           title: 'Our work is among our most-cited papers. !!! ⚡',
           description: "",
