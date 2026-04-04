@@ -79,6 +79,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_9/";
+            },},{id: "news-our-work-is-among-our-most-cited-papers",
+          title: 'Our work is among our most-cited papers. !!! ⚡',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_10/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
