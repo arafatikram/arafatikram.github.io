@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Advancing Microgrid Optimization Under Uncertainty !!! ⚡
-date: 2025-03-11 2:44:00-0500
+date: 2026-03-11 2:44:00-0500
 inline: false
 related_posts: ture
 tags: Uncertainty Optimization MicroGrid
