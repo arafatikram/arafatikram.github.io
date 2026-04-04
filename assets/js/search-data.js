@@ -70,7 +70,7 @@ ninja.data = [{
           title: 'Top-10 Best Student Paper Award!!! ⚡',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_7/";
+              window.location.href = "/news/announcement_07/";
             },},{id: "news-i-am-thrilled-to-share-that-one-of-our-research-papers-entitled-cost-effective-optimal-integration-of-renewable-energy-and-waste-to-energy-technologies-is-now-available-online-as-an-open-access-publication-while-working-as-a-research-assistant-under-the-supervision-of-dr-md-shafiullah-we-conducted-a-case-study-on-waste-to-energy-generation-systems-integrated-with-renewable-energy-sources-focusing-on-annual-cost-risk-factors-economic-life-cycle-assessment-and-environmental-impact-analysis-resulting-in-8-cost-reduction-read-online-download-pdf",
           title: 'I am thrilled to share that one of our research papers, entitled “Cost-Effective...',
           description: "",
